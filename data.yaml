@@ -1,0 +1,14 @@
+path: /Users/namitjain/Codes/PyPractice
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 6
+names: ['building', 'road', 'vehicle', 'vegetation', 'water body', 'open ground']
+
+roboflow:
+  workspace: project-rmmki
+  project: satellite-images-jnhcj
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-rmmki/satellite-images-jnhcj/dataset/2
